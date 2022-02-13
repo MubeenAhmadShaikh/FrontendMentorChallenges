@@ -21,7 +21,19 @@ Created this cool landing page with just HTML5, CSS3 and two lines of Javascript
 
 ### Demo
 
-![](./screenshot.jpg)
+**Desktop View**
+
+<img src="solution-images/Desktop-view.png" alt="Desktop view"/>
+
+**Mobile View**
+
+<img src="solution-images/Mobile-view.png" alt="Mobile view"/>
+
+**Menu**
+
+<img src="solution-images/Menu.png" alt="Menu"/>
+
+#
 
 ### Links
 
