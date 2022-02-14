@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-size: 18px;
+  font-family: "Outfit";
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 280px;
+  height: auto;
+  background-color: hsl(216, 50%, 16%);
+  padding: 1em;
+  border-radius: 0.9em;
+  position: relative;
+}
+.view {
+  position: absolute;
+  display: flex;
+  top: 25%;
+  left: 42%;
+}
+
+img.eth-img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5em;
+}
+div.hover-effect {
+  opacity: 0;
+}
+div.image {
+  width: 245px;
+  height: 245px;
+  border-radius: 0.3em;
+  background-color: cyan;
+  position: absolute;
+  top: 4%;
+  opacity: 0.4;
+  cursor: pointer;
+}
+.hover-effect:hover .eth-img {
+  opacity: 0;
+}
+.hover-effect:hover {
+  opacity: 1;
+}
+.hover-effect:hover svg {
+  z-index: 2;
+  fill: #fff;
+}
+.nftname {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 10px 0px;
+  display: block;
+  width: fit-content;
+}
+.nftname:hover {
+  color: cyan;
+  cursor: pointer;
+}
+.nftname + p {
+  color: hsl(215, 51%, 70%);
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+.badge {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5em 0;
+  padding: 0 0 0.7em 0;
+  border-bottom: 2px solid hsl(215, 32%, 27%);
+}
+
+.eth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 0.8em;
+}
+.eth span {
+  margin-left: 5px;
+  color: hsl(178, 100%, 50%);
+}
+.eth p {
+  margin-left: 5px;
+  color: hsl(215, 51%, 70%);
+}
+.author {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 0.8em;
+  padding: 0.3em 0;
+}
+.author p {
+  color: hsl(215, 51%, 70%);
+  margin-left: 1em;
+}
+span.name {
+  color: #fff;
+}
+.name:hover {
+  color: cyan;
+  cursor: pointer;
+}
+.img-border {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 2.2em;
+  height: 2.2em;
+}
+.avatar {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1440px) {
+}
+/* - Mobile: 375px
+- Desktop: 1440px */
