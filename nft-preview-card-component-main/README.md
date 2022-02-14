@@ -19,12 +19,24 @@ Created this easy NFT card with just HTML5 and CSS3.
 
 ### Demo
 
-![](./screenshot.jpg)
+**Desktop View**
+
+<img src="solution-img/Desktop-view.png" alt="Desktop view"/>
+
+**Mobile View**
+
+<img src="solution-img/Mobile-view.png" alt="Mobile view"/>
+
+**Menu**
+
+<img src="solution-img/active-nft.png" alt="active"/>
+
+#
 
 ### Links
 
 - Solution URL: [Source code](https://github.com/MubeenAhmadShaikh/FrontendMentorChallenges/tree/main/nft-preview-card-component-main)
-- Live Site URL: [Sunnyside landing page](https://frontendmentor-nft-preview-card-component-main.netlify.app/)
+- Live Site URL: [NFT preview card component](https://frontendmentor-nft-preview-card-component-main.netlify.app/)
 
 ## The process
 
