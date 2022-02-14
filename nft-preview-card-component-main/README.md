@@ -27,7 +27,7 @@ Created this easy NFT card with just HTML5 and CSS3.
 
 <img src="solution-img/Mobile-view.png" alt="Mobile view"/>
 
-**Menu**
+**Hover Effect**
 
 <img src="solution-img/active-nft.png" alt="active"/>
 
