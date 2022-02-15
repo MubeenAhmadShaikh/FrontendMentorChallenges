@@ -21,11 +21,11 @@ Created this easy QR code component with just HTML5 and CSS3.
 
 **Desktop View**
 
-<img src="solution-images/Desktop-view.png" alt="Desktop view"/>
+<img src="solution-image/Desktop-view.png" alt="Desktop view"/>
 
 **Mobile View**
 
-<img src="solution-images/Mobile-view.png" alt="Mobile view"/>
+<img src="solution-image/Mobile-view.png" alt="Mobile view"/>
 
 ### Links
 
