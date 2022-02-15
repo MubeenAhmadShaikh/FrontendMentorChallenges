@@ -90,11 +90,11 @@ div.image {
   font-weight: 600;
   font-size: 0.8em;
 }
-.eth h3 {
+.eth span {
   margin-left: 5px;
   color: hsl(178, 100%, 50%);
 }
-.eth h4 {
+.eth p {
   margin-left: 5px;
   color: hsl(215, 51%, 70%);
 }
