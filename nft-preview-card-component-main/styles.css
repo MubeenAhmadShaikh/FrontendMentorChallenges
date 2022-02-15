@@ -90,7 +90,7 @@ div.image {
   font-weight: 600;
   font-size: 0.8em;
 }
-.eth span {
+.eth h3 {
   margin-left: 5px;
   color: hsl(178, 100%, 50%);
 }
@@ -126,4 +126,3 @@ span.name {
   width: 100%;
   height: auto;
 }
-
