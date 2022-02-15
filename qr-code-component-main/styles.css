@@ -35,7 +35,7 @@ div.card > img {
   border-radius: 0.8rem;
 }
 
-header {
+h1 {
   font-size: 1.4rem;
   font-weight: 700;
   text-align: center;
@@ -57,7 +57,7 @@ p {
   div.card {
     width: 23rem;
   }
-  header {
+  h1 {
     font-size: 1.6rem;
   }
 
