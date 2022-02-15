@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component
 
-This is a solution to the [QR code component challenge on Frontend Mentor]().
+This is a solution to the [QR code component challenge on Frontend Mentor](https://frontendmentor-qr-code-component.netlify.app/).
 
 ## Table of contents
 
@@ -29,8 +29,8 @@ Created this easy QR code component with just HTML5 and CSS3.
 
 ### Links
 
-- Solution URL: [Source code]()
-- Live Site URL: [QR code component]()
+- Solution URL: [Source code](https://github.com/MubeenAhmadShaikh/FrontendMentorChallenges/tree/main/qr-code-component-main)
+- Live Site URL: [QR code component](https://frontendmentor-qr-code-component.netlify.app/)
 
 ## The process
 
