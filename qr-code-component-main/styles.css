@@ -52,6 +52,9 @@ p {
   width: 90%;
   padding-bottom: 1rem;
 }
+.attribution {
+  text-align: center;
+}
 
 @media screen and (min-width: 769px) {
   div.card {
