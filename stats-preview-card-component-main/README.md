@@ -1,6 +1,6 @@
 # Frontend Mentor - Stats preview card component
 
-Solution for [Stats preview card component](https://frontendmentor-sunnyside-agency-landing-page.netlify.app/).
+Solution for [Stats preview card component](https://frontend-mentor-stats-preview-card-component-main.netlify.app/).
 
 ### Demo
 
@@ -16,8 +16,8 @@ Solution for [Stats preview card component](https://frontendmentor-sunnyside-age
 
 ### Links
 
-- Solution URL: [Source code](https://github.com/MubeenAhmadShaikh/FrontendMentorChallenges/tree/main/sunnyside-agency-landing-page)
-- Live Site URL: [Stats preview card component](https://frontendmentor-sunnyside-agency-landing-page.netlify.app/)
+- Solution URL: [Source code](https://github.com/MubeenAhmadShaikh/FrontendMentorChallenges/tree/main/stats-preview-card-component-main)
+- Live Site URL: [Stats preview card component](https://frontend-mentor-stats-preview-card-component-main.netlify.app/)
 
 ## Built with
 

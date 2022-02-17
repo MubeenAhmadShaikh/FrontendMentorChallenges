@@ -1,6 +1,6 @@
 # Frontend Mentor - Order summary component main
 
-Solution for [Order summary component main]().
+Solution for [Order summary component main](https://frontendmentor-order-summary-component-main.netlify.app/).
 
 ### Demo
 
@@ -16,8 +16,8 @@ Solution for [Order summary component main]().
 
 ### Links
 
-- Solution URL: [Source code]()
-- Live Site URL: [Stats preview card component]()
+- Solution URL: [Source code](https://github.com/MubeenAhmadShaikh/FrontendMentorChallenges/tree/main/order-summary-component-main)
+- Live Site URL: [Stats preview card component](https://frontendmentor-order-summary-component-main.netlify.app/)
 
 ## Built with
 

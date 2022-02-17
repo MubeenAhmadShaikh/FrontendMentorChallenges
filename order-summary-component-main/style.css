@@ -139,9 +139,6 @@ p {
   color: var(--darkBlue);
 }
 @media screen and (min-width: 468px) {
-  .main-container {
-    height: 110vh;
-  }
   .main-content {
     max-height: 90vh;
     max-width: 28rem;
