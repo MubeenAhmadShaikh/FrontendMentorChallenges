@@ -1,6 +1,6 @@
 # Frontend Mentor - Profile card component main
 
-Solution for [Profile card component main]().
+Solution for [Profile card component main](https://frontendmentor-challenge-profile-card-component-main.netlify.app/).
 
 ### Demo
 
@@ -16,8 +16,8 @@ Solution for [Profile card component main]().
 
 ### Links
 
-- Solution URL: [Source code]()
-- Live Site URL: [Profile card component main]()
+- Solution URL: [Source code](https://github.com/MubeenAhmadShaikh/FrontendMentorChallenges/tree/main/profile-card-component-main)
+- Live Site URL: [Profile card component main](https://frontendmentor-challenge-profile-card-component-main.netlify.app/)
 
 ## Built with
 
@@ -36,7 +36,7 @@ Solution for [Profile card component main]().
 ## Useful resources
 
 - [Netlify](https://app.netlify.com/) - You can host your static websites for free.
-- [Position](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_background-size) - This is the best demonstration I saw for positions.
+- [Background Position](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_background-size) - This is the best demonstration I saw for positions.
 - [Perfect Pixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en) - This is really useful for comparing the results and adjusting the final output according to the design.
 
 ## Author
