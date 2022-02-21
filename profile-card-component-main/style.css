@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font: "Kumbh Sans", sans-serif;
+  --darkcyan: hsl(185, 75%, 39%);
+  --darkblue: hsl(229, 23%, 23%);
+  --grayishblue: hsl(227, 10%, 46%);
+  --darkGray: hsl(0, 0%, 59%);
+}
+body {
+  font-family: var(--font);
+  font-size: 18px;
+}
+
+.main-container {
+  height: 100vh;
+  background-color: var(--darkcyan);
+  position: relative;
+  overflow: hidden;
+}
+img.top {
+  position: absolute;
+  bottom: 50%;
+  right: 40%;
+}
+img.bottom {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+div.card-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+div.card {
+  position: absolute;
+  width: 350px;
+  height: 380px;
+  border-radius: 15px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+div.header {
+  background: url("images/bg-pattern-card.svg") no-repeat;
+  border-radius: 15px 15px 0px 0px;
+  width: 350px;
+  height: 140px;
+}
+div.profile {
+  position: absolute;
+  top: 23%;
+  left: 35%;
+  width: 96px;
+  height: 96px;
+  background: url("images/image-victor.jpg");
+  border: 4px solid #fff;
+  border-radius: 50px;
+}
+div.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
+.details > .name {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 2rem;
+}
+.name h1 {
+  color: var(--darkblue);
+  font-size: 20px;
+}
+.name span {
+  font-weight: 500;
+  color: var(--darkGray);
+}
+.name p {
+  font-size: 18px;
+  color: var(--darkGray);
+  margin-top: 0.5rem;
+}
+div.statistic {
+  border-top: 1px solid var(--darkGray);
+  display: flex;
+  justify-content: space-around;
+}
+.stats {
+  margin-top: 2rem;
+  text-align: center;
+}
+.stats span {
+  color: var(--darkblue);
+  font-weight: 700;
+}
+.stats p {
+  padding-top: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--darkGray);
+}
+
+@media screen and (min-width: 568px) {
+  img.top {
+    right: 50%;
+  }
+  img.bottom {
+    left: 50%;
+  }
+}
