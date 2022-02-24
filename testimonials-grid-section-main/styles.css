@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* colors */
+  --violet: hsl(263, 55%, 52%);
+  --darkGrayishBlue: hsl(217, 19%, 35%);
+  --blackishBlue: hsl(219, 29%, 14%);
+  --white: hsl(0, 0%, 100%);
+  --lightGray: hsl(0, 0%, 81%);
+  --lightGrayishBlue: hsl(210, 46%, 95%);
+  /* Font */
+  --font: "Barlow Semi Condensed", sans-serif;
+}
+html {
+  font-size: 13px;
+  font-family: var(--font);
+  background-color: var(--lightGrayishBlue);
+}
+.main-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 90vw;
+  margin: 5rem 0;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: max-content 1fr 1fr max-content max-content;
+  grid-template-areas:
+    "item-1"
+    "item-2"
+    "item-5"
+    "item-4"
+    "item-3";
+}
+.card {
+  border-radius: 10px;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.item-1 {
+  background: url("images/bg-pattern-quotation.svg") no-repeat;
+  background-position: top right 20%;
+  grid-area: item-1;
+  background-color: var(--violet);
+}
+.item-2 {
+  grid-area: item-2;
+  background-color: var(--darkGrayishBlue);
+}
+.item-3 {
+  grid-area: item-3;
+}
+.item-4 {
+  grid-area: item-4;
+  background-color: var(--blackishBlue);
+}
+.item-5 {
+  grid-area: item-5;
+}
+
+/* Common styles */
+.item-1,
+.item-2,
+.item-4 {
+  color: var(--white);
+}
+
+.item-2 > .highlighted-text,
+.item-4 > .highlighted-text {
+  color: var(--lightGrayishBlue);
+}
+.item-3,
+.item-5 {
+  background-color: var(--white);
+}
+div.author-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  color: var(--lightGray);
+}
+.item-3 > .highlighted-text,
+.item-5 > .highlighted-text {
+  color: var(--darkGrayishBlue);
+  font-weight: 700;
+}
+.item-3 > .qoutes,
+.item-5 > .qoutes {
+  color: var(--darkGrayishBlue);
+}
+.item-3 > .author-content,
+.item-5 > .author-content {
+  color: var(--blackishBlue);
+}
+
+.author-content img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50px;
+}
+.item-1 img,
+.item-4 img {
+  border: 2px solid var(--violet);
+}
+.author-content .name {
+  opacity: 1;
+}
+.author-content .post {
+  opacity: 0.5;
+}
+.highlighted-text {
+  font-size: 1.5rem;
+  color: var(--white);
+  font-weight: 500;
+}
+.qoutes {
+  color: var(--lightGray);
+  opacity: 0.7;
+  line-height: 18px;
+}
+@media screen and (min-width: 669px) {
+  .main-container {
+    height: 100vh;
+  }
+  .wrapper {
+    width: 77vw;
+    height: 72vh;
+    gap: 1.4rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+      "item-1 item-1 item-2"
+      "item-3 item-3 item-3"
+      "item-5 item-4 item-4";
+  }
+}
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "item-1 item-1 item-2 item-3"
+      "item-5 item-4 item-4 item-3";
+  }
+}
